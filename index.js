@@ -7,12 +7,12 @@ document.querySelector("img.img2 ").setAttribute("src","./images/dice"+rand2+".p
 
 if(rand>rand2)
 {
- document.querySelector(".container h1").innerHTML=" Player1 won";
+ document.querySelector("h1").innerHTML=" Player1 won";
 }
 else if(rand<rand2)
 {
-    document.querySelector(".container h1").innerHTML="Player2 won";
+    document.querySelector("h1").innerHTML="Player2 won";
 }
 else{
-    document.querySelector(".container h1").innerHTML="It's a Draw";
+    document.querySelector("h1").innerHTML="It's a Draw";
 }
